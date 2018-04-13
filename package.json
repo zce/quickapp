@@ -35,7 +35,8 @@
     "test": "npm run lint && nyc ava"
   },
   "dependencies": {
-    "commander": "^2.11.0"
+    "commander": "^2.11.0",
+    "hap-tools": "^0.0.2"
   },
   "devDependencies": {
     "ava": "^0.25.0",

@@ -9,7 +9,7 @@
 [![devDependency Status][devdependency-image]][devdependency-url]
 [![Code Style][style-image]][style-url]
 
-> 一个帮你管理 hap-tools（快应用开发工具）依赖项并封装其编译功能的模块，开箱即用，减少痛苦
+> :construction: 一个帮你管理 hap-tools（快应用开发工具）依赖项并封装其编译功能的模块，开箱即用，减少痛苦
 
 ## Installation
 

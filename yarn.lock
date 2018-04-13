@@ -1907,6 +1907,10 @@ handlebars@^4.0.3:
   optionalDependencies:
     uglify-js "^2.6"
 
+hap-tools@^0.0.2:
+  version "0.0.2"
+  resolved "http://registry.npm.taobao.org/hap-tools/download/hap-tools-0.0.2.tgz#96ba2bb5d6ac7a6325777d054e19afd92887a027"
+
 har-schema@^1.0.5:
   version "1.0.5"
   resolved "http://registry.npm.taobao.org/har-schema/download/har-schema-1.0.5.tgz#d263135f43307c02c602afc8fe95970c0151369e"
