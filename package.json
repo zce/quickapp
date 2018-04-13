@@ -1,0 +1,49 @@
+{
+  "name": "@zce/quickapp",
+  "version": "0.0.0",
+  "description": "一个帮你管理 hap-tools（快应用开发工具）依赖项并封装其编译功能的模块，开箱即用，减少痛苦",
+  "keywords": [
+    "cli",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/quickapp#readme",
+  "bugs": {
+    "url": "https://github.com/zce/quickapp/issues"
+  },
+  "license": "MIT",
+  "author": "zce <w@zce.me> (https://zce.me/)",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "bin": {
+    "quickapp": "bin/quickapp.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "doc": "doc",
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/quickapp.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "npm run lint && nyc ava"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "nyc": "^11.3.0",
+    "standard": "^11.0.1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true
+}
